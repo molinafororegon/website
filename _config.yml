@@ -1,20 +1,49 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "David Molina for Oregon"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+name                     : "David Molina for Oregon"
+description              : "Meet David Molina. Former Army Captain David Molina is a U.S. Army veteran, entrepreneur, and father of three. He joined the race for Oregon House District 29 because his values are our neighbors' values, and Salem has gotten way off track. David was born in Hood River, and earned his Officer Commission in Infantry at Oregon State University."
+theme                    : minimal-mistakes-jekyll
+url                      : #
+baseurl                  : #
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser: #
+logo: "/img/molina_logo.jpg"
+
+# Plugins
+plugins:
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-mentions
+  - jekyll-auto-image
+  - jekyll-redirect-from
+  - jekyll-github-metadata
+  #  -s jekyll-admin
+
+# Server Config options
+livereload: true # You no longer need to include --livereload
+reload_port: 4000 # If you don't want to use the default port
+
+contact_links:
+  - name: Twitter
+    url: https://twitter.com/davidcmolina
+    icon: twitter
+  - name: Facebook
+    url: https://www.facebook.com/davidmolinafororegon/
+    icon: facebook
+  - name: GitHub
+    url: https://github.com/davidmolina
+    icon: github
+
+nav_pages:
+  - index.html
+  - contact.md
+  - meet-david.html
+
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -55,9 +84,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "davidcmolina"
 facebook:
-  username               :
+  username               : "david.molina1"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -72,28 +101,27 @@ social:
 analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-107375800-1"
 
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "David Molina"
+  avatar           : "/img/davidmolina_headshot.jpeg"
+  bio              : "Candidate for House District 29"
+  email            : "david@molinafororegon.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "davidmolinafororegon"
   foursquare       :
-  github           :
+  github           : #
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "davidcmolina"
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
@@ -101,11 +129,11 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "@davidcmolina"
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : #
 
 
 # Reading Files
@@ -144,14 +172,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -177,15 +203,6 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
-# Plugins
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -193,7 +210,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
 
 # Archives
 #  Type

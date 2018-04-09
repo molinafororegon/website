@@ -15,3 +15,5 @@ const banner = `/*!
 if (script.slice(0, 3) != '/**') {
   fs.writeFileSync(filename, banner + script);
 }
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"cbb92c1fe17e5a13b3fa6fd06","lid":"247f5fd296"}) })</script>

@@ -1,0 +1,23 @@
+{
+  "name": "minimal-mistakes",
+  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "main": "",
+  "authors": [
+    "Michael Rose"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jekyll",
+    "theme",
+    "minimal"
+  ],
+  "homepage": "https://github.com/mmistakes/minimal-mistakes",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

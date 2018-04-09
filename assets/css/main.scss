@@ -5,3 +5,16 @@
 @charset "utf-8";
 
 @import "minimal-mistakes";
+
+.header img {
+  float: left;
+  width: 175px;
+  height: 175px;
+  background: transparent\9;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}

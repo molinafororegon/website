@@ -40,6 +40,14 @@ task :preview do
     "theme"         => "minimal-mistakes-jekyll"
   }
 
+  # task :generate do
+  # Jekyll::Site.new(Jekyll.configuration({
+  #                                         "source"      => ".",
+  #                                         "destination" => "_site",
+  #                                         "baseurl"     => "molinafororegon.org"
+  #                                       })).process
+  # end
+
   options = Jekyll.configuration(options)
 
   ENV["LISTEN_GEM_DEBUGGING"] = "1"
