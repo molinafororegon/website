@@ -6,7 +6,7 @@ img: "/img/hillsborochamber_conectate_davidmolina.jpg"
 ---
 
 <a href="#">
-    <img src="/img/hillsborochamber_conectate_davidmolina.jpg" alt="David Molina joined Latino small business owners in Hillsboro to share his vision and answer questions about his priorities and issues">
+    <img src="/assets/images/hillsborochamber_conectate_davidmolina.jpg" alt="David Molina joined Latino small business owners in Hillsboro to share his vision and answer questions about his priorities and issues">
 </a>
 
 HILLSBORO, Ore. – This morning on a freezing Washington County morning, over two dozen Latino small business owners and entrepreneurs huddled together to network, connect, and learn strategies to grow their businesses. Hillsboro Chamber Latino Program Specialist, Claudia Cardenas, welcomed everyone and shared the groups' 2017 progress and asked for each individual to share one goal for the following year.  Prior to final end, Claudia announced to the participating chamber members the candidacy of David Molina for House District 29, which encompasses Forest Grove, Cornelius and West Hillsboro. Fluent in Spanish, David addressed everyone.

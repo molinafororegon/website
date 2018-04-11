@@ -6,7 +6,7 @@ img: "/img/fgnt_clip.png"
 ---
 
 <a href="#">
-    <img src="/img/fgnt_clip.png" alt="Forest Grove Republican running for House District 29">
+    <img src="/assets/images/fgnt_clip.png" alt="Forest Grove Republican running for House District 29">
 </a>
 
 JILL REHKOPF SMITH | via <a href="http://pamplinmedia.com/fgnt/36-news/373627-257780-forest-grove-republican-running-for-house-district-29">Pamplin Media, Forest Grove News Times</a> | Thursday, September 28, 2017

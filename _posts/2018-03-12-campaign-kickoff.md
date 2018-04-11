@@ -6,7 +6,7 @@ img: "/img/hillsborochamber_conectate_davidmolina.jpg"
 ---
 
 <a href="#">
-    <img src="/img/1172255_4602025667980_1801152162_o.jpg" alt="David Molina invites friends, family and voters in House District 29 to join the campaign kickoff party on March 28th in Cornelius">
+    <img src="/assets/images/1172255_4602025667980_1801152162_o.jpg" alt="David Molina invites friends, family and voters in House District 29 to join the campaign kickoff party on March 28th in Cornelius">
 </a>
 
 DAVID MOLINA FOR OREGON CAMPAIGN | Monday, March 12, 2018
