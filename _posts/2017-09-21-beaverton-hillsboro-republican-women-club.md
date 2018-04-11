@@ -7,7 +7,7 @@ jpg"
 ---
 
 <a href="#">
-    <img src="/img/beaverton_hillsboro_republican_women_club_davidmolina.jpg" alt="David Molina, a Republican candidate for House District 29 addresses the Beaverton Hillsboro Republican Women Club">
+    <img src="/assets/images/beaverton_hillsboro_republican_women_club_davidmolina.jpg" alt="David Molina, a Republican candidate for House District 29 addresses the Beaverton Hillsboro Republican Women Club">
 </a>
 
 PORTLAND, Ore. – This evening, David Molina, Republican candidate for the Oregon House of Representatives, District 29, gave his first stump speech about his run for public office before an audience of strong conservative women, elected officials, candidates for public office, Republican PCPs, and business owners.

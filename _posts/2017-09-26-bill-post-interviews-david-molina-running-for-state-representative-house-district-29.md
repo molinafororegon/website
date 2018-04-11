@@ -7,7 +7,7 @@ img: "/img/billpost_googlesearch.png"
 ---
 
 <a href="#">
-    <img src="/img/billpost_interview.png" alt="Bill Post interviews David Molina running for State Representative House District 29">
+    <img src="/assets/images/billpost_interview.png" alt="Bill Post interviews David Molina running for State Representative House District 29">
 </a>
 
 DAVID MOLINA FOR OREGON CAMPAIGN | Tuesday, September 26, 2017

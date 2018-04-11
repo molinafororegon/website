@@ -6,7 +6,7 @@ img: "/img/1172255_4602025667980_1801152162_o.jpg"
 ---
 
 <a href="#">
-    <img src="/img/1172255_4602025667980_1801152162_o.jpg" alt="David Molina, Republican Candidate for Oregon House of Representatives District 29">
+    <img src="/assets/images/1172255_4602025667980_1801152162_o.jpg" alt="David Molina, Republican Candidate for Oregon House of Representatives District 29">
 </a>
 
 DAVID MOLINA FOR OREGON CAMPAIGN | Tuesday, September 19, 2017
