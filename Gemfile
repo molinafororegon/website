@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '2.5.0'
+ruby '2.5.1'
 
 gem 'jekyll'
 gem 'html-pipeline'
@@ -10,3 +10,4 @@ gem 'jekyll-mentions'
 gem 'jekyll-redirect-from'
 gem 'jekyll-github-metadata'
 gem 'github-pages'
+gem 'jemoji'
