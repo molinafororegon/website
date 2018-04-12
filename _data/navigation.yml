@@ -2,8 +2,8 @@
 main:
   - title: "About David"
     url: /about-david/
-  - title: "Priorities"
-    url: /values/
+  - title: "Issues"
+    url: /issues/
   - title: "Facebook"
     url: https://www.facebook.com/davidmolinafororegon
   - title: "Campaign Trail"

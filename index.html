@@ -8,3 +8,11 @@ header:
   cta_url: "https://secure.anedot.com/davidmolina/donate"
 excerpt: Candidate for Oregon House District 29
 ---
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
