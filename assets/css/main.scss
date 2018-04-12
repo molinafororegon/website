@@ -6,10 +6,10 @@
 
 @import "minimal-mistakes";
 
-.header img {
+.brand-image, .header img {
   float: left;
-  width: 175px;
-  height: 175px;
+  width: 125px;
+  height: auto;
   background: transparent\9;
 }
 
