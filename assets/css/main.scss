@@ -18,3 +18,18 @@
   top: 18px;
   left: 10px;
 }
+
+
+.disclaimers{
+  font-size: $type-size-8;
+  text-align: center;
+
+  .box {
+    border: 1px $light-gray solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin:0 auto;
+    max-width: 400px;
+    font-size: $type-size-4;
+  }
+}

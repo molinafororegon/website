@@ -1,2 +1,31 @@
 
-Paid for by David Molina for Oregon
+<div class="disclaimers">
+  <div itemscope itemtype="http://schema.org/Person">
+    {% if author.twitter %}
+      <li>
+        <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs">
+          <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+        </a>
+      </li>
+    {% endif %}
+
+    {% if author.facebook %}
+      <li>
+        <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs">
+          <i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook
+        </a>
+      </li>
+    {% endif %}
+    {% if author.instagram %}
+      <li>
+        <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs">
+          <i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram
+        </a>
+      </li>
+    {% endif %}
+  </div>
+
+  <div class="box"><p>Paid for by David Molina for Oregon</p></div>
+  <p>&copy; 2018</p>
+  <p>The appearance of service members or military on this web site does not constitute endorsement by the DoD</p>
+</div>
