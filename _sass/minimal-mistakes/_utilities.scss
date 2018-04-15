@@ -150,7 +150,7 @@ body:hover .visually-hidden button {
   }
 }
 
-/* image align center */
+/* image align */
 
 .align-center {
   display: block;
@@ -186,6 +186,7 @@ body:hover .visually-hidden button {
 .social-icons {
   .fa {
     color: #000;
+    font-size: $type-size-1;
   }
 
   .fa-behance,
