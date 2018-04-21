@@ -45,6 +45,14 @@
     max-width: 80vw;
     margin: 2em;
   }
+  .box {
+    border: 1px $light-gray solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin:0 auto;
+    max-width: 200px;
+    font-size: $type-size-5;
+  }
 }
 @media only screen and (min-width : 560px) and (max-width : 1024px) {
   .resize {
