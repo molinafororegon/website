@@ -19,11 +19,16 @@
   left: 10px;
 }
 
-.center {
-    text-align: center;
+.left {
+  float:left;
 }
 .disclaimers{
   font-size: $type-size-7;
+}
+
+.resize {
+  max-width: 50%;
+  margin: 2em;
 }
 
 .box {
