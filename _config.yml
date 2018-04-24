@@ -39,6 +39,11 @@ contact_links:
     url: https://github.com/davidmolina
     icon: github
 
+collections:
+  - issues
+    output: true
+    permalink: /:collection/:path/
+
 nav_pages:
   - index.html
   - contact.md
@@ -86,7 +91,7 @@ yandex_site_verification :
 twitter:
   username               : "davidcmolina"
 facebook:
-  username               : "david.molina1"
+  username               : "davidmolinafororegon"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
