@@ -41,8 +41,6 @@ contact_links:
 
 collections:
   - issues
-    output: true
-    permalink: /:collection/:path/
 
 nav_pages:
   - index.html
