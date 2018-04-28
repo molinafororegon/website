@@ -2,6 +2,7 @@
 layout: single
 title:  "PERS Reform"
 ---
+
 Imagine a state-run pension system crisis so intertwined with conflict of interest, an unfunded liability so massive that will soon be eating half of every dollar that goes to fund schools and essential state services, a gross mismanagement of epic proportions that even raised national attention with The New York Times, bluntly stating, “Joseph Robertson, an eye surgeon who retired as head of the Oregon Health & Science University last fall, receives the state’s largest government pension— $76,111 per month— considerably more than the average Oregon family earns in a year.”
 
 <blockquote>Former Captain Molina can’t remember a single veteran, from a retired General or Admiral or an Staff Sergeant that makes more per month than when they served on active-duty. Unfortunately, triple PERS pensioner Susan McLain has failed time in again to provide sound leadership, put forth common sense solutions, and it’s now time to permanently retire her and stand strong on PERS reform for the future of all current and new Oregonians before more teachers have to be cut, bridges collapses and potholes ruin more cars and trucks.</blockquote>
