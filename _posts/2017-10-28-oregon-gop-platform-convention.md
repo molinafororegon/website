@@ -2,7 +2,7 @@
 title: "Republican PCP, David Molina, represents at the Oregon GOP Platform Convention"
 author: David Molina
 excerpt: "David Molina joins hundreds of conservative Oregonians from across the state at the Oregon GOP Platform Convention."
-img: "/img/oregon_gop_platform_alexanderflores_davidmolina_tracyhonl.jpg"
+img: "/assets/images/oregon_gop_platform_alexanderflores_davidmolina_tracyhonl.jpg"
 ---
 
 <a href="#">

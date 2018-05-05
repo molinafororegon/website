@@ -2,7 +2,7 @@
 title: "Campaign Kickoff Fundraiser for David Molina House District 29"
 author: David Molina
 excerpt: "David Molina invites his friends, family and voters in House District 29 to join the campaign kick-off party on March 28th in Cornelius."
-img: "/img/hillsborochamber_conectate_davidmolina.jpg"
+img: "/assets/images/hillsborochamber_conectate_davidmolina.jpg"
 ---
 
 <a href="#">

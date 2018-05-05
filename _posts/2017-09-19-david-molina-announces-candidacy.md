@@ -2,7 +2,7 @@
 title: "David Molina announces candidacy for State Representative District 29"
 author: David Molina
 excerpt: "I'm running for Oregon House District 29."
-img: "/img/1172255_4602025667980_1801152162_o.jpg"
+img: "/assets/images/1172255_4602025667980_1801152162_o.jpg"
 ---
 
 <a href="#">

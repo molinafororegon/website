@@ -2,7 +2,7 @@
 title: "David Molina speaks at the Hillsboro Chamber Conectate Latino Small Business Coffee Hour"
 author: David Molina
 excerpt: "David Molina joined two dozen Latino small business owners and entrepreneurs to network, connect, and learn strategies to grow their businesses."
-img: "/img/hillsborochamber_conectate_davidmolina.jpg"
+img: "/assets/images/hillsborochamber_conectate_davidmolina.jpg"
 ---
 
 <a href="#">

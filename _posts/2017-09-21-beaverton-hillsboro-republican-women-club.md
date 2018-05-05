@@ -2,7 +2,7 @@
 title: "Giving his first stump speech, Candidate Molina shares why he's running before the Beaverton Hillsboro Republican Women Club"
 author: David Molina
 excerpt: "David Molina shares his personal story to the Beaverton Hillsboro Republican Women Club, a chapter of the Oregon Federation of Republican Women."
-img: "/img/beaverton_hillsboro_republican_women_club_davidmolina.
+img: "/assets/images/beaverton_hillsboro_republican_women_club_davidmolina.
 jpg"
 ---
 

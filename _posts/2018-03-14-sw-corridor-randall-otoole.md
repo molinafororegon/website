@@ -2,7 +2,7 @@
 title: "The expensive and inexpensive reasons for Portland-metro travel"
 author: David Molina
 excerpt: "Watch Randall O'Toole give a speech at the SW Corridor meeting."
-img: "/img/rotoole.jpg"
+img: "/assets/images/rotoole.jpg"
 ---
 
 <a href="#">

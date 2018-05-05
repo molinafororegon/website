@@ -2,7 +2,7 @@
 title: "Forest Grove Republican running for House District 29"
 author: Jill Rehkopf Smith
 excerpt: "Former Army Captain and small business owner David Molina hopes to take back House District 29."
-img: "/img/fgnt_clip.png"
+img: "/assets/images/fgnt_clip.png"
 ---
 
 <a href="#">

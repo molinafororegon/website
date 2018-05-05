@@ -2,7 +2,7 @@
 title: "State Representative Bill Post interviews David Molina who's running to represent Forest Grove, Cornelius and West Hillsboro as State Representative"
 author: David Molina
 excerpt: "David Molina, Republican candidate for Oregon House District 29 conducts first radio interview on AM 1220 KPJC."
-img: "/img/billpost_googlesearch.png"
+img: "/assets/images/billpost_googlesearch.png"
 
 ---
 
