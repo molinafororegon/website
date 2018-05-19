@@ -1,6 +1,12 @@
 
 <div class="text-center">
-
+<address>
+  <p>David Molina for Oregon<br />
+  2459 SE Tualatin Valley Hwy<br />
+  #340<br />
+  Hillsboro, OR 97123-1247</p>
+  <p>(971) 232-0833</p>
+</address>
   <div class="page__footer-follow">
     <ul class="social-icons">
       {% if site.data.ui-text[site.locale].follow_label %}
@@ -18,8 +24,8 @@
       {% if site.author.gitlab %}
         <li><a href="http://gitlab.com/{{ site.author.gitlab }}"><i class="fa fa-fw fa-gitlab" aria-hidden="true"></i></a></li>
       {% endif %}
-      {% if site.author.bitbucket %}
-        <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fa fa-fw fa-bitbucket" aria-hidden="true"></i></a></li>
+      {% if site.instagram.username %}
+        <li><a href="https://instagram.com/{{ site.instagram.username }}"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i></a></li>
       {% endif %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "" }}</a></li>
     </ul>
