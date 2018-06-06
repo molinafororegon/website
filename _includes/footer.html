@@ -1,4 +1,6 @@
 
+<footer>
+
 <div class="text-center">
 <address>
   <p>David Molina for Oregon<br />
@@ -30,9 +32,11 @@
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "" }}</a></li>
     </ul>
   </div>
-
+  <img src="/assets/logos/logo_white_med.png">
   <div class="box"><p>Paid for by David Molina for Oregon</p></div>
 
   <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. </div>
   <p class="disclaimers">The appearance of service members or military on this web site does not constitute endorsement by the DoD</p>
 </div>
+
+</footer>
