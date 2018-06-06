@@ -1,0 +1,170 @@
+/* ==========================================================================
+   LANDING PAGE
+   ========================================================================== */
+
+  .hero {
+    position: relative;
+    padding:0;
+    margin:0;
+    @include clearfix;
+    -webkit-animation: $intro-transition;
+            animation: $intro-transition;
+    -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+    background-image: url ('assets/images/ORcapitol.jpg');
+    background-size: cover;
+    border-bottom: 2px solid $border-color;
+  
+    &--overlay {
+      position: relative;
+      margin-bottom: 2em;
+      padding: 0;
+      @include clearfix;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-animation: $intro-transition;
+              animation: $intro-transition;
+      -webkit-animation-delay: 0.25s;
+              animation-delay: 0.25s;
+  
+      a {
+        color: #fff;
+      }
+  
+      .wrapper {
+        padding-left: 1em;
+        padding-right: 1em;
+        min-height: 80vh;
+  
+        @include breakpoint($x-large) {
+          max-width: $x-large;
+        }
+      }
+  
+      .hero__title,
+      .hero__meta,
+      .hero__lead,
+      .btn {
+        color: #fff;
+        text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      }
+  
+      .hero__lead {
+        max-width: $medium;
+      }
+  
+      .hero__title {
+        font-size: $type-size-2;
+  
+        @include breakpoint($small) {
+          font-size: $type-size-1;
+        }
+      }
+    }
+
+    &__inner-wrap {
+      @include clearfix;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      max-width: 100%;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      font-family: $sans-serif-narrow;
+  
+      @include breakpoint($x-large) {
+        max-width: $x-large;
+      }
+  
+      nav {
+        z-index: 10;
+      }
+  
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .hero__hero-image {
+    width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+  }
+  
+  .hero__hero-caption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 2px 5px;
+    color: #fff;
+    font-family: $caption-font-family;
+    font-size: $type-size-7;
+    background: #000;
+    text-align: right;
+    z-index: 5;
+    opacity: 0.5;
+    border-radius: $border-radius 0 0 0;
+  
+    @include breakpoint($large) {
+      padding: 5px 10px;
+    }
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+
+
+  
+  .site-title {
+    display: -webkit-box;
+    display: flex;
+    padding: 0.5rem 0;
+    align-self: stretch;
+    -webkit-box-align: center;
+          align-items: center;
+    font-weight: bold;
+    z-index: 20;
+  }
+  
+  .hero__menu {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+  
+    .site-nav {
+      margin-left: 0;
+  
+      @include breakpoint($small) {
+        float: right;
+      }
+    }
+  
+    ul {
+      margin: 0;
+      padding: 0;
+      clear: both;
+      list-style-type: none;
+    }
+  }
+  
+  .hero__menu-item {
+    display: block;
+    list-style-type: none;
+    white-space: nowrap;
+  
+    &--lg {
+      padding-right: 2em;
+      font-weight: 700;
+    }
+  }
+  
