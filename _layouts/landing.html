@@ -17,31 +17,33 @@
     {% include browser-upgrade.html %}
    
     <div class="hero">
-      <!--<div class="hero__inner-wrap"> -->
-        <div class="hero__menu">
-    
-          <nav id="site-nav" class="greedy-nav">
-           <div class="header">
-              <a class="brand-image" href="{{ '/' }}"><img class="brand-image" src="/assets/logos/logo_med_transparent.png"/></a>
-            </div>
-    
-            <ul class="visible-links">
-              {% for link in site.data.navigation.main %}
-                {% if link.url contains 'http' %}
-                  {% assign domain = '' %}
-                {% else %}
-                  {% assign domain = site.url | append: site.baseurl %}
-                {% endif %}
-                <li class="hero__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-              {% endfor %}
-            </ul>
-            <button><div class="navicon"></div></button>
-            <ul class="hidden-links hidden"></ul>
-          </nav>
-          
-       <!-- </div> -->
+      <div class="hero__menu">
+        <nav id="site-nav" class="greedy-nav">
+          <div class="header">
+            <a class="brand-image" href="{{ '/' }}"><img class="brand-image" src="/assets/logos/logo_med_transparent.png"/></a>
+          </div>
+              <ul class="visible-links">
+            {% for link in site.data.navigation.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
+              <li class="hero__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <button><div class="navicon"></div></button>
+          <ul class="hidden-links hidden"></ul>
+        </nav>
       </div>
-  
+      <div class="wrapper">
+        <div class="hero--overlay">
+            
+          </div>
+      </div>
+
+     </div>
+   
     
     {{ content }}
 

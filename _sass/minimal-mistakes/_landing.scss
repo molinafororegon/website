@@ -11,7 +11,8 @@
             animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
             animation-delay: 0.25s;
-    background-image: url ('assets/images/ORcapitol.jpg');
+    background-image: url(../../assets/images/ORcapitol.jpg);
+    min-height:90vh;
     background-size: cover;
     border-bottom: 2px solid $border-color;
   
@@ -120,9 +121,6 @@
     }
   }
 
-
-
-  
   .site-title {
     display: -webkit-box;
     display: flex;
@@ -168,3 +166,24 @@
     }
   }
   
+  @media only screen and (min-width: 700px) and (max-width:770px){
+    .hero{
+      background-image: url(../../assets/images/ORcapitol.jpg);
+      background-position-x: -40em;
+    }
+
+  }
+
+  @media only screen and (min-width: 375px) and (max-width:420px){
+    .hero{
+      background-image: url(../../assets/images/ORcapitol.jpg);
+      background-position-x: -40em;
+    }
+  }
+
+  @media only screen and (min-width: 300px) and (max-width:320px){
+    .hero{
+      background-image: url(../../assets/images/ORcapitol.jpg);
+      background-position-x: -25em;
+    }
+  }
