@@ -69,6 +69,16 @@
     }
   }
 
+
+  &--cta {
+    border: 1px solid $blue !important; /* override*/
+    background-color: rgba(128, 0, 0, 0.74);
+    border-radius: $border-radius;
+
+    &:hover {
+      background-color: $red !important;
+    }
+  }
   /* information */
 
   &--info {
