@@ -4,9 +4,10 @@ main:
     url: /about-david/
   - title: "Issues"
     url: /issues/
-  - title: "Campaign Trail"
-    url: /meet-david/
-  - title: "Pitch In"
-    url: https://secure.anedot.com/davidmolina/donate
+  - title: "Events"
+    url: /events/
   - title: "Endorsements"
     url: /endorsements/
+  - title: "Donate"
+    url: https://secure.anedot.com/davidmolina/donate
+
