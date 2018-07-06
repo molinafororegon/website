@@ -22,8 +22,7 @@
           <div class="header">
             <a class="brand-image" href="{{ '/' }}"><img class="brand-image" src="/assets/logos/logo_med_transparent.png"/></a>
           </div>
-              <ul class="visible-links">
-                <li class="btn--cta"><a href="https://secure.anedot.com/davidmolina/donate">Donate</a></li>
+            <ul class="visible-links">  
             {% for link in site.data.navigation.main %}
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
@@ -32,6 +31,7 @@
               {% endif %}
               <li class="hero__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endfor %}
+            <li class="btn--cta"><a href="https://secure.anedot.com/davidmolina/donate">Donate</a></li>
           </ul>
           <button><div class="navicon"></div></button>
           <ul class="hidden-links hidden">
