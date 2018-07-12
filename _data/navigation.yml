@@ -6,7 +6,10 @@ main:
     url: /about-david/
   - title: "Issues"
     url: /issues/
-  - title: "Campaign Trail"
+  - title: "Meet David"
     url: /meet-david/
   - title: "Endorsements"
     url: /endorsements/
+  - title: "Donate"
+    url: https://secure.anedot.com/davidmolina/donate
+
