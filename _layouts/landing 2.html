@@ -1,0 +1,85 @@
+<!doctype html>
+<!--
+  THIS IS THE DEFAULT PAGE FOR THE LANDING PAGE ONLY. DO NOT DELETE default.html
+
+  Minimal Mistakes Jekyll Theme 4.5.2 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include browser-upgrade.html %}
+   
+    <div class="hero">
+      <div class="hero__menu">
+        <nav id="site-nav" class="greedy-nav">
+          <div class="header">
+            <a class="brand-image" href="{{ '/' }}"><img class="brand-image" src="/assets/logos/logo_med_transparent.png"/></a>
+          </div>
+            <ul class="visible-links">  
+            {% for link in site.data.navigation.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
+              <li class="hero__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+            <li class="btn--cta"><a href="https://secure.anedot.com/davidmolina/donate">Donate</a></li>
+          </ul>
+          <button><div class="navicon"></div></button>
+          <ul class="hidden-links hidden">
+            <li class="btn--cta"><a href="https://secure.anedot.com/davidmolina/donate">Donate</a></li>
+            <img src="assets/logos/logo_white_med.png" class="align-center resize">
+          </ul>
+        </nav>
+      </div>
+      <div class="wrapper">
+        <div class="hero--overlay">
+            
+        </div>
+      </div>
+
+     </div>
+   
+    
+    {{ content }}
+
+    <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  #mc_embed_signup{background:#fff; clear:center; font:14px Helvetica,Arial,sans-serif; width:100%;}
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://molinafororegon.us16.list-manage.com/subscribe/post?u=cbb92c1fe17e5a13b3fa6fd06&amp;id=247f5fd296" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  <label for="mce-EMAIL">Sign up to support David Molina</label>
+  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cbb92c1fe17e5a13b3fa6fd06_247f5fd296" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+<div class="page__footer">
+  <footer>
+    {% include footer/custom.html %}
+    {% include footer.html %}
+  </footer>
+</div>
+
+
+      {% include scripts.html %}
+
+  </body>
+</html>
