@@ -48,6 +48,7 @@ The branch landingPage is incomplete and looking for contributors!
 ### Contributors
 
 Molina for Oregon would like to thank our contributors: 
+
 -Kelly MacLeod <http://www.macleodwebdev.com>
 
 ---
