@@ -6,7 +6,7 @@ Welcome to our campaign website built using Jekyll, a simple, blog-aware, static
 
 Want to contribute to our campaign website? Create an issue, be as detailed as possible, and our team will work with you on implementation. Or create a pull request. 
 
-###Running the site locally
+### Running the site locally
 Jekyll comes with a live-reload feature so you can view your work without having to re-lauch. It's not the best live-reload feature and you might have to refresh a couple times for your modifications to catch up.
 
 1. `cd` to your local repo
@@ -24,7 +24,7 @@ When submitting a pull request:
 ## Notes
 The branch landingPage is complete and looking for contributors! 
 
-###landingPage To-dos:
+### landingPage To-dos:
 - Page content scrolls on top of overlay menu. The desired behavior is for the overlay menu to take up the entirety of the viewport, with no scrolling
 - Close button disappears on the menu overlay. 
 - Molina For Oregon logo needs to be removed from the navigation bar (top left) on the landing page _only_.
