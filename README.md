@@ -22,7 +22,8 @@ When submitting a pull request:
 3. Open a pull request on GitHub.
 
 ## Notes
-The branch landingPage is complete and looking for contributors! 
+
+The branch landingPage is incomplete and looking for contributors! 
 
 ### landingPage To-dos:
 - Page content scrolls on top of overlay menu. The desired behavior is for the overlay menu to take up the entirety of the viewport, with no scrolling
@@ -45,8 +46,10 @@ The branch landingPage is complete and looking for contributors!
 - <https://github.com/mmistakes>
 
 ### Contributors
+
 Molina for Oregon would like to thank our contributors: 
 -Kelly MacLeod <http://www.macleodwebdev.com>
+
 ---
 
 ## License
