@@ -4,7 +4,15 @@ Welcome to our campaign website built using Jekyll, a simple, blog-aware, static
 
 ## Contributing
 
-Want to contribute to our campaign website? Create an issue, be as detailed as possible, and our team will work with you on implementation. Or create a pull request. 
+Want to contribute to our campaign website? Create an issue, be as detailed as possible, and our team will work with you on implementation. Or create a pull request (keep reading) 
+
+### Pull Requests
+
+When submitting a pull request:
+
+1. Fork and clone the repo.
+2. Create a branch off of `master` and give it a meaningful name (e.g. `my-awesome-new-feature`) and describe the feature or fix.
+3. Open a pull request on GitHub.
 
 ### Running the site locally
 Jekyll comes with a live-reload feature so you can view your work without having to re-lauch. It's not the best live-reload feature and you might have to refresh a couple times for your modifications to catch up.
@@ -12,14 +20,6 @@ Jekyll comes with a live-reload feature so you can view your work without having
 1. `cd` to your local repo
 2. In the root file, run `jekyll serve`
 3. Open your browser at `http://localhost:4000/`
-
-### Pull Requests
-
-When submitting a pull request:
-
-1. Clone the repo.
-2. Create a branch off of `master` and give it a meaningful name (e.g. `my-awesome-new-feature`) and describe the feature or fix.
-3. Open a pull request on GitHub.
 
 ## Notes
 
