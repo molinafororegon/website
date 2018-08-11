@@ -11,8 +11,8 @@
             animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
             animation-delay: 0.25s;
-    background-image: url(../../assets/images/ORcapitol.jpg);
-    min-height:90vh;
+    background-image: url(../../assets/images/david_headshot_splash.jpg);
+    min-height:100vh;
     background-size: cover;
     border-bottom: 2px solid $border-color;
   
@@ -78,10 +78,6 @@
   
       @include breakpoint($x-large) {
         max-width: $x-large;
-      }
-  
-      nav {
-        z-index: 10;
       }
   
       a {

@@ -2,29 +2,40 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
 
-      <nav id="site-nav" class="greedy-nav">
-        <!-- <a class="site-title" href="{{ '/' | absolute_url }}">{{ site.title }}</a> -->
-
-        <div class="header">
-          <a class="brand-image" href="{{ '/' }}"><img class="brand-image" src="/assets/images/molina_logo_noPadding.png"/></a>
-        </div>
-
-        <ul class="visible-links">
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = site.url | append: site.baseurl %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <button><div class="navicon"></div></button>
-        <ul class="hidden-links hidden">
-          <li class="btn--cta"><a href="https://secure.anedot.com/davidmolina/donate">Donate</a></li>
-          <img src="../assets/logos/logo_white_med.png" class="align-center resize">
-        </ul>
-      </nav>
+        <nav class="site-nav">
+            <div class="brand-image">
+                <a href="/index/"><img src="assets/logos/logo_med_transparent.png"></a>
+            </div>
+             <div class="button">
+              <a class="btn-open" href="#"></a>
+            </div>
+            
+            <div class="overlay">
+              <div class="wrap">     
+                  <ul class="hidden-links wrap-nav">
+                  {% for link in site.data.navigation.main %}
+                    {% if link.url contains 'http' %}
+                      {% assign domain = '' %}
+                    {% else %}
+                      {% assign domain = site.url | append: site.baseurl %}
+                    {% endif %}
+                    <li class="masthead__menu-item">
+                      <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                    </li>
+                  {% endfor %}
+                  <li class="btn--block">
+                    <a href="https://secure.anedot.com/davidmolina/donate">Pitch In</a>
+                  </li>
+                </ul>
+                <div>
+                  <img src="assets/logos/logo_white_med.png" class="resize">
+                </div>
+              </div>
+            </div>
+            <div class="content hidden">
+               Click on hamburger to open the overlay menu
+            </div>
+        </nav>
       
     </div>
   </div>
